@@ -1,0 +1,82 @@
+Waldo results
+
+Threshold 55.0, all data (euclidean, average)
+13199 4096
+True cluster histogram: [ 0.71150815  0.13592573  0.08355229  0.0415134   0.01786653  0.00963391]
+Threshold  55.0 : [ 0.89055794  0.06791845  0.02628755  0.00954936  0.00407725  0.00160944]
+matching same cluster pairs = 101049.0
+total same cluster pairs = 206756.0
+Precision = 0.488735514326
+matching same class pairs = 96242.0
+total same class pairs = 246130.0
+Recall = 0.39102100516
+F = 0.434451687112
+
+Threshold 1.1, normalized instead of scaled, all data (euclidean, average)
+13199 4096
+True cluster histogram: [ 4062.   776.   477.   237.   102.    55.]
+Threshold  1.1 : [ 2333.  1475.   754.   272.    96.    43.]
+matching same cluster pairs = 193486.0
+total same cluster pairs = 201545.0
+Precision = 0.960013892679
+matching same class pairs = 193082.0
+total same class pairs = 246130.0
+Recall = 0.784471620688
+F = 0.863410614192
+
+Threshold 70.0, all data (euclidean, complete)
+13199 4096
+True cluster histogram: [ 4062.   776.   477.   237.   102.    55.]
+Threshold  70 : [ 4707.   934.   480.   205.    98.    41.]
+matching same cluster pairs = 68818.0
+total same cluster pairs = 155798.0
+Precision = 0.44171298733
+matching same class pairs = 61995.0
+total same class pairs = 246130.0
+Recall = 0.251879088287
+F = 0.320817576914
+
+Threshold 55.0, A's only (euclidean, average)
+1051 4096
+True cluster histogram: [ 0.70023419  0.13348946  0.10070258  0.04449649  0.0117096   0.00936768]
+Threshold  55.0 : [ 0.91613723  0.05209657  0.01524778  0.01016518  0.00381194  0.0025413 ]
+matching same cluster pairs = 4161.0
+total same cluster pairs = 5296.0
+Precision = 0.785687311178
+matching same class pairs = 3704.0
+total same class pairs = 7808.0
+Recall = 0.474385245902
+F = 0.591582550101
+
+Threshold 74.0, A's only (euclidean, complete)
+1051 4096
+True cluster histogram: [ 0.70023419  0.13348946  0.10070258  0.04449649  0.0117096   0.00936768]
+Threshold  74.0 : [ 0.7251462   0.12475634  0.10136452  0.02923977  0.00779727  0.01169591]
+matching same cluster pairs = 4639.0
+total same cluster pairs = 5958.0
+Precision = 0.778616985566
+matching same class pairs = 4342.0
+total same class pairs = 7808.0
+Recall = 0.556096311475
+F = 0.648807552431
+
+Threshold 62.0, A's only (euclidean, weighted)
+Threshold  62 : [ 0.85103245  0.08259587  0.03834808  0.01622419  0.00589971  0.00589971]
+matching same cluster pairs = 4208.0
+total same cluster pairs = 4827.0
+Precision = 0.871762999793
+matching same class pairs = 3844.0
+total same class pairs = 7808.0
+Recall = 0.49231557377
+F = 0.629263606588
+
+Threshold 8.5, A's only (chebyshev, complete)
+Threshold  8.5 : [ 0.9112426   0.06390533  0.02248521  0.00236686  0.          0.        ]
+matching same cluster pairs = 2769.0
+total same cluster pairs = 5966.0
+Precision = 0.464130070399
+matching same class pairs = 2291.0
+total same class pairs = 7808.0
+Recall = 0.293417008197
+F = 0.35953846439
+
